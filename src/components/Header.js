@@ -14,15 +14,15 @@ function Header() {
           <img src="/images/logo.svg" alt="" />
         </a>
         <Menu>
-          <a href ="/">Model S</a>
-          <a href ="/">Model 3</a>
-          <a href ="/">Model X</a>
-          <a href ="/">Model Y</a>
+          <a href ="https://www.youtube.com/">Model S</a>
+          <a href ="https://www.youtube.com/">Model 3</a>
+          <a href ="https://www.youtube.com/">Model X</a>
+          <a href ="https://www.youtube.com/">Model Y</a>
         </Menu>
         <RightMenu>
           <RightMenuSubPart>
-            <a href ="/">Shop</a>
-            <a href="/">Tesla Account</a>
+            <a href ="https://www.youtube.com/">Shop</a>
+            <a href="https://www.youtube.com/">Tesla Account</a>
           </RightMenuSubPart>
           <CustomMenu onClick ={()=>{setBurgerStatus(true)}}/>
         </RightMenu>
@@ -30,14 +30,14 @@ function Header() {
           <CloseWrapper>
             <CustomClose  onClick = {()=>{setBurgerStatus(false)}}/>
           </CloseWrapper>  
-          <li><a href="/">Existing Invetory</a></li>
-          <li><a href="/">Used Invetory</a></li>
-          <li><a href="/">Trade-in</a></li>
-          <li><a href="/">Cybertruck</a></li>
-          <li><a href="/">Roadaster</a></li>
-          <li><a href="/">Exxisting Invetory</a></li>
-          <li><a href="/">Exxisting Invetory</a></li>
-          <li><a href="/">Exxisting Invetory</a></li>
+          <li><a href="https://www.youtube.com/">Existing Invetory</a></li>
+          <li><a href="https://www.youtube.com/">Used Invetory</a></li>
+          <li><a href="https://www.youtube.com/">Trade-in</a></li>
+          <li><a href="https://www.youtube.com/">Cybertruck</a></li>
+          <li><a href="https://www.youtube.com/">Roadaster</a></li>
+          <li><a href="https://www.youtube.com/">Exxisting Invetory</a></li>
+          <li><a href="https://www.youtube.com/">Exxisting Invetory</a></li>
+          <li><a href="https://www.youtube.com/">Exxisting Invetory</a></li>
         </BurgerNav>
     </Container>
   );
